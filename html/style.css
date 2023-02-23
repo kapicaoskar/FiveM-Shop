@@ -1,0 +1,157 @@
+@font-face {
+    font-family: 'Gilroy ExtraBold';
+    src: url('Gilroy-ExtraBold.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}  
+
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url('gilroy-medium.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}  
+
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+
+::-webkit-scrollbar-track {
+    background: var(--body);
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: var(--scroll-color);
+    border-radius: 25px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--scroll-color-hover);
+}
+
+body {
+    background-color: var(--body);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+.server-name {
+    font-family: "Gilroy ExtraBold", serif;
+    font-size: 20px;
+    color: white;
+    margin-top: 35px;
+    margin-left: 5px;
+}
+
+.logo-server {
+    width: 65px;
+    height: 65px;
+    margin-top: 15px;
+    margin-left: 250px;
+}
+
+header button {
+    background: var(--basket-button);
+    border-radius: 50px;
+    color: white;
+    transition: 0.5s background-color linear;
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    border-color: transparent ;
+    margin-top: 27px;
+    margin-left: 1100px;
+}
+
+header button:hover {
+    background : var(--basket-button-hover)
+}
+
+header i {
+    font-size: 15px;
+}
+
+.header-cat {
+    font-size: 45px;
+    margin-left: 210px;
+    margin-top: 120px;
+    font-family: "Gilroy ExtraBold", serif;
+    color: white;
+    text-transform: uppercase;
+}
+
+.boxes {
+    margin-left: 180px;
+    margin-top: -20px;
+}
+
+.item-box {
+    padding: 20px;
+    background: var(--items-box);
+    border-radius: 10px;
+    border: solid 1px rgba(222, 197, 255, 0.2);
+    transition: 0.3s all linear;
+    margin-left: 25px;
+    display: inline-block;
+    width: 680px;
+    min-height: 270px;
+    margin-top: 30px;
+
+}
+
+
+.item-photo {
+    min-width: 260px;
+    min-height: 260px;
+    width: 260px;
+    height: 260px;
+    max-width: 260px;
+    max-height: 260px;
+    margin-left: 10px;
+    margin-top: 30px;
+    
+}
+
+.item-title {
+    font-size: 30px;
+    color: white;
+    font-family: Gilroy-Medium, serif;
+    margin-left: 20px;
+    margin-top: -255px;
+    margin-left: 290px;
+}
+
+#photo {
+    background-size: 100%;
+}
+
+.item-desc {
+    font-size: 18px;
+    color: #AAA9A2;
+    font-family: Gilroy-Medium, serif;
+    margin-left: 290px;
+    margin-top: -20px;
+}
+
+
+#addBasket {
+        background: var(--basket-button);
+        border-radius: 50px;
+        color: white;
+        transition: 0.5s background-color linear;
+        min-width: 150px;
+        height: 45px;
+        font-size: 16px;
+        border-color: transparent ;
+        margin-top: 70px;
+        font-weight: 600;
+}
+#addBasket i {
+    margin-left: 5px;
+}
+
+#addBasket:hover {
+    background : var(--basket-button-hover)
+}

@@ -1,0 +1,8 @@
+:root {
+    --body: #0F172A;
+    --scroll-color: #818CF8 ; 
+    --scroll-color-hover: #2230c5 ; 
+    --basket-button: #818CF8 ; 
+    --basket-button-hover: #2230c5 ; 
+    --items-box : linear-gradient(152.97deg, rgba(255, 242, 197, 0.1) 0%, rgba(255, 248, 188, 0) 100%) ;
+}
